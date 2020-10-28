@@ -1,0 +1,16 @@
+public static Main(){
+public static void main(String[] args){
+		
+		int a  = 10;// intiger - l. całkowita 32 bity od -2 ^ 31 do 2 ^ 31 -1
+		String  b = "asdf"; // ciąg znaków
+		long c = 9321048109234810L; // long - 64 bity od -2^63 do 2^63-1
+		byte d = 123; // byte 8 bit od -128 do 127
+		short e = 2222 // 16 bit od -32,768 do 32767
+		char znak = 'g';
+		float f = 3.45f;// 32 bity - 1,4*10^-45 do 3,4*10^138 
+		double g = 3.45; // 64 bity od  4,9*10^-324 do 1,8*10^308
+		final int r = 2 ; // nie można zmienić
+		System.out.println(a + b);
+		
+		System.out.println(a / (double)a); // zmiana "a" z int na double (rzutowanie ) 
+}
